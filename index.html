@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unsameh - Creative Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo-container">
+                <div class="loading-circle">
+                    <svg class="loading-svg" viewBox="0 0 100 100">
+                        <defs>
+                            <linearGradient id="loading-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color: var(--primary-color); stop-opacity: 1" />
+                                <stop offset="100%" style="stop-color: var(--secondary-color); stop-opacity: 1" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="loading-circle-bg" cx="50" cy="50" r="45"></circle>
+                        <circle class="loading-circle-progress" cx="50" cy="50" r="45"></circle>
+                    </svg>
+                </div>
+                <div class="loading-logo">un</div>
+            </div>
+            <div class="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">un</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="blur-circle blur-1"></div>
+            <div class="blur-circle blur-2"></div>
+            <div class="blur-circle blur-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-name">unsameh</span>
+                    <span class="title-role">Creative Graphic Designer</span>
+                </h1>
+                <p class="hero-description">
+                    Transforming ideas into stunning visual experiences. 
+                    Specializing in brand identity, digital design, and creative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-card">
+                    <div class="particle particle-1"></div>
+                    <div class="particle particle-2"></div>
+                    <div class="particle particle-3"></div>
+                    <div class="particle particle-4"></div>
+                    <div class="particle particle-5"></div>
+                    <div class="particle particle-6"></div>
+                    
+                    <div class="profile-image">
+                        <img src="assets/pics/sam.png" alt="unsameh" class="profile-picture">
+                    </div>
+                    <div class="profile-glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate graphic designer with over 5 years of experience creating 
+                        compelling visual stories. My journey in design started with a love for art 
+                        and has evolved into a deep understanding of brand communication and user experience.
+                    </p>
+                    <p class="about-description">
+                        I believe that great design is not just about aesthetics, but about solving 
+                        problems and creating meaningful connections between brands and their audiences.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-placeholder-large">
+                            <img src="assets/pics/sam2.png" alt="unsameh" class="about-picture">
+                        </div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Work</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder-portfolio">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Brand Identity Design</h3>
+                        <p class="portfolio-description">
+                            Complete brand identity package including logo design, color palette, 
+                            typography, and brand guidelines for a tech startup.
+                        </p>
+                        <div class="portfolio-category">Branding</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder-portfolio">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Mobile App UI/UX</h3>
+                        <p class="portfolio-description">
+                            User interface and experience design for a fitness tracking mobile 
+                            application with modern, intuitive design patterns.
+                        </p>
+                        <div class="portfolio-category">UI/UX Design</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder-portfolio">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Print Design Collection</h3>
+                        <p class="portfolio-description">
+                            Series of print materials including business cards, brochures, 
+                            and marketing collateral for various clients.
+                        </p>
+                        <div class="portfolio-category">Print Design</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder-portfolio">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Website Design</h3>
+                        <p class="portfolio-description">
+                            Modern, responsive website design with focus on user experience 
+                            and conversion optimization for e-commerce platform.
+                        </p>
+                        <div class="portfolio-category">Web Design</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder-portfolio">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Social Media Graphics</h3>
+                        <p class="portfolio-description">
+                            Engaging social media content and graphics for multiple brands, 
+                            including Instagram posts, stories, and advertising materials.
+                        </p>
+                        <div class="portfolio-category">Social Media</div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder-portfolio">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Motion Graphics</h3>
+                        <p class="portfolio-description">
+                            Animated graphics and video content for marketing campaigns, 
+                            including logo animations and promotional videos.
+                        </p>
+                        <div class="portfolio-category">Motion Design</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services I Offer</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="service-title">Brand Identity Design</h3>
+                    <p class="service-description">
+                        Complete brand identity packages including logos, color palettes, 
+                        typography, and comprehensive brand guidelines.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-description">
+                        User interface and experience design for websites, mobile apps, 
+                        and digital platforms with focus on usability and aesthetics.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3 class="service-title">Print Design</h3>
+                    <p class="service-description">
+                        Business cards, brochures, flyers, posters, and other print 
+                        materials designed for maximum impact and brand consistency.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="service-title">Social Media Design</h3>
+                    <p class="service-description">
+                        Engaging social media graphics, posts, stories, and advertising 
+                        materials that boost engagement and brand awareness.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="service-title">Motion Graphics</h3>
+                    <p class="service-description">
+                        Animated graphics, logo animations, and video content for 
+                        marketing campaigns and digital platforms.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="service-title">Illustration</h3>
+                    <p class="service-description">
+                        Custom illustrations and artwork for various applications, 
+                        from editorial content to marketing materials.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Ready to bring your ideas to life?</h3>
+                    <p class="contact-description">
+                        I'm always excited to work on new projects and collaborate with 
+                        creative minds. Whether you have a specific project in mind or 
+                        just want to discuss possibilities, let's connect!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">unsameh@example.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Phone</span>
+                                <span class="method-value">+1 (555) 123-4567</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Location</span>
+                                <span class="method-value">New York, NY</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Project Type" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-textarea" placeholder="Tell me about your project" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 unsameh. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#portfolio" class="footer-link">Portfolio</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
